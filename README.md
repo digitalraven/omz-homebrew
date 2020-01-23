@@ -11,10 +11,10 @@ Aliases
 
 | Alias | Command                                                                                                       | Description                                                                                                        |
 |-------|---------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
-| bl    | `echo "Forumulae\n========" && brew list -1 && echo "\nCasks\n=====" && brew cask list -1`                    | List installed forumulae and casks                                                                                 |
+| bl    | `echo "Formulae\n========" && brew list -1 && echo "\nCasks\n=====" && brew cask list -1`                    | List installed forumulae and casks                                                                                 |
 | bi    | `brew install`                                                                                                | Install a forumula                                                                                                 |
 | bci   | `brew cask install`                                                                                           | Install a cask                                                                                                     |
-| bup   | `brew update && echo "\nForumulae\n========" && brew outdated && echo "\nCasks\n=====" && brew cask outdated` | Fetch the latest version of Homebrew, then list outdated formulae and casks                                        |
+| bup   | `brew update && echo "\nFormulae\n========" && brew outdated && echo "\nCasks\n=====" && brew cask outdated` | Fetch the latest version of Homebrew, then list outdated formulae and casks                                        |
 | bug   | `brew upgrade && brew cask upgrade && brew cleanup`                                                           | Upgrade outdated (and unpinned) forumlae and casks, then removes stale lockfiles, outdated downloads, and versions |
 | buddy | `brew upgrade --dry-run && brew cask upgrade --dry-run`                                                       | List the packages that would be updated by `bug`                                                                   |
 
