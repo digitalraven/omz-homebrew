@@ -18,6 +18,28 @@ Aliases
 | bug   | `brew upgrade && brew cask upgrade && brew cleanup`                                                           | Upgrade outdated (and unpinned) forumlae and casks, then removes stale lockfiles, outdated downloads, and versions |
 | buddy | `brew upgrade --dry-run && brew cask upgrade --dry-run`                                                       | List the packages that would be updated by `bug`                                                                   |
 
+Installation
+------------
+
+1. Clone this repository into `$ZSH_CUSTOM/plugins` (by default `~/.oh-my-zsh/custom/plugins`)
+
+    ```sh
+    git clone https://github.com/digitalraven/omz-homebrew ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/omz-homebrew
+    ```
+
+2. Add the plugin to the list of plugins for Oh My Zsh to load (inside `~/.zshrc`):
+
+    ```sh
+    plugins=(... omz-homebrew)
+    ```
+
+3. Re-source your `~/.zshrc`
+
+    ```sh
+    source ~/.zshrc
+    ```
+
+4. There is no step 4.
 
 [0]: https://ohmyz.sh
 [1]: https://brew.sh
