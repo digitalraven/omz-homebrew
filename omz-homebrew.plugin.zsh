@@ -1,0 +1,6 @@
+alias bl='echo "Forumulae\n========" && brew list -1 && echo "\nCasks\n=====" && brew cask list -1'
+alias bi='brew install'
+alias bci='brew cask install'
+alias bup='brew update && echo "\nForumulae\n========" && brew outdated && echo "\nCasks\n=====" && brew cask outdated'
+alias bug='brew upgrade && brew cask upgrade && brew cleanup'
+alias buddy='brew upgrade --dry-run && brew cask upgrade --dry-run'
