@@ -4,7 +4,7 @@ OMZ Homebrew
 Description
 -----------
 
-An alternative polugin for [Oh My Zsh][0] offering several aliases for common [brew][1] commands. While there is an existing `brew` plugin, its provided aliases don't match my needs. This plugin does not conflict with the official one, and both can be used side-by-side.
+An alternative plugin for [Oh My Zsh][0] offering several aliases for common [brew][1] commands. While there is an existing `brew` plugin, its provided aliases don't match my needs. This plugin does not conflict with the official one, and both can be used side-by-side.
 
 Aliases
 -------
